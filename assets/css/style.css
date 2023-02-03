@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+    --white: #fff;
+    --platinum: #E8EBE4;
+    --gray: #BEC1BB;
+
+    --blueball: #A491D2;
+    --soap: #CDC3E6;
+    --palelavender: #D4DCFF;
+
+    --darkjungle: #1b1f21;
+    --outerspace: #444749;
+    --oldsilver: #828485;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+main aside{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px var(--gray);
+}
+
+
+/* MARIA */
+.miusuario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px var(--gray);
+    padding: 0.5rem 2rem;
+    flex: 1 1 auto;
+}
+
+ul{
+    list-style: none;
+    margin-left: 0.5rem;
+}
+
+.miusuario-img{
+    width: 40px;
+    border-radius: 50%;
+    border: solid 2px var(--gray);
+}
+
+.miusuario-info{
+    display: flex;
+    align-items: center;
+}
+
+.miusuario-mensaje{
+    font-size: 10px;
+    color: var(--oldsilver);
+}
+
+.miusuario-iconos i{
+    margin-left: 0.6rem;
+    color: var(--oldsilver);
+}
+
+/* BOTON NUEVO CHAT */
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px var(--gray);
+    flex: 3 1 auto;
+
+}
+
+button{
+    border: solid 1px var(--blueball);
+    background-color: var(--blueball);
+    color: var(--white);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.8rem 3rem;
+}
+
+button:hover{
+    background-color: var(--palelavender);
+    border: solid 1px var(--palelavender);
+    color: var(--blueball);
+
+}
+
+/* CHATS */
+
+.contacto{
+    border-bottom: solid 1px var(--gray);
+    display: flex; 
+    align-items: center;
+    padding: 0 2rem;
+    flex: 1 1 auto; 
+}
+
+.contacto-img{
+    width: 60px;
+    border: solid 2px var(--gray);
+    border-radius: 50%;
+}
+
+.contacto-name{
+    font-weight: 700;
+}
+
+
+/* SECTION (lado derecho)*/
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--platinum);
+}
+
+section h1{
+    font-size: 45px;
+    margin-top: 1rem;
+}
+
+section p{
+    text-align: center;
+    width: 30%;
+    margin-top: 0.5rem;
+}
+
+section p span{
+    font-weight: 700;
+}
+
+section img{
+    width: 300px;
+}
+
